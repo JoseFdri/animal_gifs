@@ -1,0 +1,4 @@
+MainList Vertical
+  display flex
+  alignItems center
+  justifyContent center

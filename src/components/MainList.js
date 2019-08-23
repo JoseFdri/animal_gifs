@@ -1,11 +1,12 @@
 import React from 'react';
 import Category from './Category';
 import ModalBox from './Modal';
+import MainListView from '../views/MainList.view.js';
 
 class MainList extends React.Component {
   constructor(props) {
     super(props);
-    this.categories = ['Cats', 'Dogs', 'Elephants', 'Lions', 'Monkeys', 'Koala', 'duck']
+    this.categories = ['Cats', 'Dogs', 'Elephants', 'Lions', 'Monkeys', 'Koala', 'Duck']
     this.state = {
       addModalShow: false, 
       category: '',
@@ -16,16 +17,16 @@ class MainList extends React.Component {
 
   render() {
     return (
-      <div>
+      <MainListView>
         {this.createList()}
-        <ModalBox 
+        <ModalBox
           show={this.state.addModalShow}
           category={this.state.category}
           onHide={this.hideModal}
           showSpinner={this.state.showModalSpinner}
           gifs={this.state.gifs}
           ></ModalBox>
-      </div>
+      </MainListView>
     );
   }
 

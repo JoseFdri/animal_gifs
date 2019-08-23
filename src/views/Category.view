@@ -1,0 +1,24 @@
+Category Vertical
+    onClick <
+    paddingBottom 31px
+    paddingTop 31px
+    minWidth 290px
+    borderWidth 3px
+    borderColor #ef692d
+    borderStyle solid
+    borderTopLeftRadius 35px
+    borderTopRightRadius 35px
+    borderBottomLeftRadius 35px
+    borderBottomRightRadius 35px
+    marginBottom 11px
+    marginLeft 0px
+    marginRight 0px
+    marginTop 11px
+    display flex
+    justifyContent center
+    alignItems center
+    fontSize 2.2em
+    cursor pointer
+    maxWidth 500px
+    Text
+        text <category

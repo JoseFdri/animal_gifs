@@ -27,7 +27,7 @@ class ModalBox extends React.Component {
             <Spinner animation="grow" role="status" size="lg">
                 <span className="sr-only">Loading...</span>
             </Spinner>);
-        }else if (this.props.gifs.length == 0) {
+        }else if (this.props.gifs.length === 0) {
             return (<span>No animals found :(</span>)
         }
         return (
