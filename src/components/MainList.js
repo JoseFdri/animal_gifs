@@ -5,7 +5,7 @@ import ModalBox from './Modal';
 class MainList extends React.Component {
   constructor(props) {
     super(props);
-    this.categories = ['Cats', 'Dogs', 'Elephants', 'Lions', 'Monkeys', 'Koala', 'swan']
+    this.categories = ['Cats', 'Dogs', 'Elephants', 'Lions', 'Monkeys', 'Koala', 'duck']
     this.state = {
       addModalShow: false, 
       category: '',
